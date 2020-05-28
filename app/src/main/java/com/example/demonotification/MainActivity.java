@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 builder.setContentText("Subject");
                 builder.setSmallIcon(android.R.drawable.btn_star_big_off);
                 builder.setContentIntent(pIntent);
+                builder.setStyle(bigText);
                 builder.setAutoCancel(true);
 
                 Uri uri= RingtoneManager.getDefaultUri
